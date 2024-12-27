@@ -68,11 +68,50 @@ console.log('Welcome Hello World From Talha');
 
 // console.log(y)
 
-{
-    let age = 17;
-    console.log(age);
+// {
+//     let age = 17;
+//     console.log(age);
+// }
+
+// let age = 20;
+
+// console.log(age);
+
+// function talhaInformation() {
+//     const name = 'Talha';
+//     const age = 17;
+//     const gender = true;         //true -> male     false -> female
+
+//     console.log(name, age, gender);
+//     console.log(typeof name);
+//     console.log(typeof age);
+//     console.log(typeof gender);
+
+// }
+
+// talhaInformation()
+
+// let x;
+// let y = null;
+
+// console.log(typeof x);
+// console.log(typeof y)
+
+// let x = BigInt('123');
+// let y = Symbol('hello');
+
+// console.log(typeof x);
+// console.log(typeof y);
+
+const studentInfo = {
+    talha : {
+        fullName : 'Muhammed Talha',
+        studentAge : 17,
+        studentGender : 'male',
+        studentMarks : 20
+    },
+    owais : null,
+    maheen : null
 }
 
-let age = 20;
-
-console.log(age);
+console.log(typeof studentInfo)
