@@ -103,15 +103,20 @@ console.log('Welcome Hello World From Talha');
 // console.log(typeof x);
 // console.log(typeof y);
 
-const studentInfo = {
-    talha : {
-        fullName : 'Muhammed Talha',
-        studentAge : 17,
-        studentGender : 'male',
-        studentMarks : 20
-    },
-    owais : null,
-    maheen : null
-}
+// const studentInfo = {
+//     talha : {
+//         fullName : 'Muhammed Talha',
+//         studentAge : 17,
+//         studentGender : 'male',
+//         studentMarks : 20
+//     },
+//     owais : null,
+//     maheen : null
+// };
 
-console.log(typeof studentInfo)
+// console.log(studentInfo.talha);
+// studentInfo['owais'] = {fullName : 'Owais Rameen', studentAge : 17, studentGender : 'male', studentMarks : 20};
+
+// studentInfo['zaviyar'] = {fullName : 'Muhammad Zaviyar', studentAge : 1, studentGender : 'male', studentMarks : 10};
+
+// console.log(studentInfo);
