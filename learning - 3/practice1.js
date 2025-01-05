@@ -27,3 +27,16 @@
 
 // randomNumberGuesser()
 
+function nameToUsername() {
+    let name = prompt('Enter Your Name: ');
+    
+    let preWord = '@';
+    let postWord = name.length;
+
+    let username = preWord + name + postWord;
+
+    return username;
+}
+
+let username = nameToUsername();
+console.log(`Your username is: ${username}`);
