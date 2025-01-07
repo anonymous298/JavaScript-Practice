@@ -27,16 +27,38 @@
 
 // randomNumberGuesser()
 
-function nameToUsername() {
-    let name = prompt('Enter Your Name: ');
+// function nameToUsername() {
+//     let name = prompt('Enter Your Name: ');
     
-    let preWord = '@';
-    let postWord = name.length;
+//     let preWord = '@';
+//     let postWord = name.length;
 
-    let username = preWord + name + postWord;
+//     let username = preWord + name + postWord;
 
-    return username;
-}
+//     return username;
+// }
 
-let username = nameToUsername();
-console.log(`Your username is: ${username}`);
+// let username = nameToUsername();
+// console.log(`Your username is: ${username}`);
+
+function entry() {
+    let age = prompt('Enter Your Age: ');
+
+    if (age > 18) {
+        let confirmation = prompt('Did you want to enter: ');
+
+        if (age === 'yes') {
+            console.log('You are welcome here');
+        }
+
+        else {
+            console.log('No problem');
+        }
+    }
+
+    else {
+        console.log('Your age does not satisfy our terms');
+    }
+};
+
+entry();
